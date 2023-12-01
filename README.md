@@ -29,6 +29,10 @@ O projeto é dividido em três partes principais:
 - Você verá o status da palavra, incluindo letras adivinhadas e espaços em branco para letras não reveladas.
 - Você tem 6 chances para adivinhar as letras corretamente.
 
+<p align="center">
+  <img src="./screen.png" />
+</p>
+
 ### Se escolher adicionar uma nova palavra:
 
 - Insira a palavra desejada quando solicitado.
