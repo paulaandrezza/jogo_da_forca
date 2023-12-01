@@ -12,7 +12,7 @@ namespace jogo_da_forca.Options
 
         public Play(string word, string hint)
         {
-            _word = word.ToLower();
+            _word = word.ToUpper();
             _hint = hint;
             _guessedLetters = new List<char>();
             _remainingChances = 6;
@@ -28,7 +28,7 @@ namespace jogo_da_forca.Options
                 DisplayWordStatus();
                 Console.WriteLine($"\n\nChances restantes: {_remainingChances}");
                 Console.Write("Digite uma letra: ");
-                char guess = Console.ReadLine().ToLower()[0];
+                char guess = Console.ReadLine().ToUpper()[0];
 
                 if (IsValidGuess(guess))
                 {
